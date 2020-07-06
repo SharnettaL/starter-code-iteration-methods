@@ -40,7 +40,7 @@ const company1 = users.some(user => user.company === 'OVATION')
 printKata(3, company1)
  
  
-const age1 = users.find(user => user.age < 38)
+const age1 = users.find(user => user.age > 38)
 printKata(4, age1)
  
 const over38Active = users
